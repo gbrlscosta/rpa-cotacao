@@ -25,7 +25,7 @@ driver = webdriver.Chrome(options=chrome_options)
 time.sleep(4)
 
 # Abra a página desejada
-driver.get("https://www.google.com/search?q=dolar&rlz=1C1GCEU_pt-BRBR1086BR1086&oq=dolar+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiDARixAxiABDINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDINCAcQABiDARixAxiABDINCAgQABiDARixAxiABDINCAkQABiDARixAxiABNIBCDIzMTJqMGo5qAIAsAIB&sourceid=chrome&ie=UTF-8")
+driver.get("https://g.co/kgs/UGYy5mT")
 time.sleep(2)
 
 # Encontrar elemento
