@@ -45,7 +45,7 @@ try:
     cursor.execute(query, valores)
     conexao.commit()  # Commit the transaction if needed
   
-    select_query = f"SELECT * FROM data;"
+    select_query = f"SELECT * FROM cotacao_dolar;"
   
     cursor.execute(select_query)
     registros = cursor.fetchall()
