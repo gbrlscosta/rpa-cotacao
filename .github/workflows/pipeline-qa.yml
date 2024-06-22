@@ -39,7 +39,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v6.4
       with:
         image: gbrlscosta/rpa-cotacao
-        tags: ${{github.run_number}}-dollar_PROD
+        tags: ${{github.run_number}}-dollar_QA
         registry: docker.io 
         dockerfile: Dockerfile
         username: ${{secrets.dockeruser}}
