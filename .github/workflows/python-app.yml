@@ -38,8 +38,8 @@ jobs:
     - name: Publicando no Docker 
       uses: mr-smithers-excellent/docker-build-push@v6.4
       with:
-        image: gbrlscosta/pipeline_data-hora 
-        tags: ${{github.run_number}}
+        image: gbrlscosta/rpa-cotacao
+        tags: ${{github.run_number}}-dollar_PROD
         registry: docker.io 
         dockerfile: Dockerfile
         username: ${{secrets.dockeruser}}
